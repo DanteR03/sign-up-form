@@ -5,12 +5,18 @@
 
 html {
   font-size: 18px;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
   display: flex;
   flex-direction: row;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -53,7 +59,7 @@ body {
   font-size: 0.7rem;
 }
 
-.credit, a, .logo-text {
+.credit, a, .logo-text, button {
   color: rgb(255, 255, 255);
 }
 
@@ -68,7 +74,8 @@ body {
   flex-direction: column;
   justify-content: end;
   height: 30%;
-  padding: 30px 300px 30px 30px;
+  width: 100%;
+  padding: 5% 20% 5% 5%;
 }
 
 .right-header p {
@@ -78,37 +85,36 @@ body {
 .right-main {
   background:rgb(255, 255, 255);
   height: 40%;
-  padding: 10px;
+  width: 100%;
+  padding: 2%;
 }
 
-fieldset {
-  border: 0;
+button {
+  width: 30%;
+  padding: 2%;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #596D48;
+  border-radius: 10px;
+  border: none;
 }
 
-form {
+.right-footer {
   display: flex;
-  direction: column;
+  flex-direction: column;
   gap: 15%;
-}
-
-label {
-  letter-spacing: 0.1rem;
-}
-
-.input-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.input-container {
-  display: flex;
-  flex-direction: column;
-  padding: 10%;
+  padding: 5%;
+  height: 30%;
   width: 100%;
 }
 
-span {
+.emphasis {
   font-style: italic;
+}
+
+.login {
+  color: #596D48;
+  font-weight: bold;
 }
 
 
