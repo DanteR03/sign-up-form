@@ -61,3 +61,11 @@ body {
   width: 65%;
   height: 100%;
 }
+
+.right-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 30%;
+}
+
