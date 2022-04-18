@@ -82,16 +82,67 @@ body {
   font-weight: bold;
 }
 
-.right-main {
+form {
   background:rgb(255, 255, 255);
-  height: 40%;
+  height: 50%;
+  padding-top: 1%;
   width: 100%;
-  padding: 2%;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  padding-left: 5%;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  padding-left: 3.5%;
+}
+
+.input-column {
+  width: 30%;
+  height: 100%;
+}
+
+.input-flex {
+  display: flex;
+  flex-direction: column; 
+  padding: 5%;
+  width: 100%;
+}
+
+label {
+  letter-spacing: 1px;
+}
+
+input {
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+  height: 30px;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid rgb(0, 0, 255);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.error {
+  border: 1px solid rgb(255, 0, 0);
+}
+
+#password::after {
+  content: "*passwords don't match";
+  color: red;
 }
 
 button {
   width: 30%;
   padding: 2%;
+  margin-left: 5%;
+  margin-top: 6%;
   font-weight: bold;
   font-size: 1rem;
   background-color: #596D48;
@@ -100,11 +151,9 @@ button {
 }
 
 .right-footer {
-  display: flex;
-  flex-direction: column;
-  gap: 15%;
   padding: 5%;
-  height: 30%;
+  padding-top: 10%;
+  height: 20%;
   width: 100%;
 }
 

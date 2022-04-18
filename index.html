@@ -22,10 +22,41 @@
         deepest dreams. Sign up <span class="emphasis">now</span> to get started.</p>
       <p>You <span class="emphasis">know</span> you want to.</p>
     </div>
-    <div class="right-main">
-    </div>
-    <div class="right-footer">
+    <form action="example.com/path" method="post">
+      <h3>Let's do this!</h3>
+      <div class="form-text">
+        <div class="input-column">
+          <div class="input-flex">
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" name="first_name" id="first_name">
+          </div>
+          <div class="input-flex">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <div class="input-flex" id="password">
+            <label for="password">PASSWORD</label>
+            <input class="error" type="password" name="password" id="password">
+          </div>
+        </div>
+        <div class="input-column">
+          <div class="input-flex">
+            <label for="last_name">LAST NAME</label>
+            <input type="text" name="last_name" id="last_name">
+          </div>
+          <div class="input-flex">
+            <label for="phone_number">PHONE NUMBER</label>
+            <input type="tel" name="phone_number" id="phone_number">
+          </div>
+          <div class="input-flex">
+            <label for="password_confirm">CONFIRM PASSWORD</label>
+            <input class="error" type="password" name="password_confirm" id="password_confirm">
+          </div>
+        </div>
+      </div>
       <button type="submit">Create Account</button>
+    </form>
+    <div class="right-footer">
       <p>Already have an account? <span class="login">Log in</span></p>
     </div>
   </div>
