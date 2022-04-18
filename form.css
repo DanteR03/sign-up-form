@@ -54,12 +54,13 @@ body {
 }
 
 .credit, a, .logo-text {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .right-container {
   width: 65%;
   height: 100%;
+  background: rgb(250, 250, 250);
 }
 
 .right-header {
@@ -67,5 +68,17 @@ body {
   flex-direction: column;
   justify-content: end;
   height: 30%;
+  padding: 30px 300px 30px 30px;
 }
 
+.right-header p {
+  font-weight: bold;
+}
+
+fieldset {
+  border: 0;
+}
+
+span {
+  font-style: italic;
+}
