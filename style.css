@@ -27,6 +27,10 @@ body {
     background: url(./background-image.jpg);
     width: 30%;
     color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .right-container {
@@ -40,8 +44,15 @@ body {
     align-items: center;
     font-family: norseBold;
     font-size: 4rem;
+    position: relative;
+    top: 25%;
+    width: 100%;
 }
 
 .left-container a {
     color: rgb(255, 255, 255);
+}
+
+.left-container > p {
+    margin-bottom: 15px;
 }
