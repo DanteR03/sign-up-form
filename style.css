@@ -9,3 +9,16 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+.left-container {
+    background: url(./background-image.jpg);
+    width: 30%;
+}
+
+.right-container {
+    width: 70%;
+}
